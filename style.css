@@ -1,0 +1,120 @@
+body {
+  background-color: #BBCCA2;
+}
+h1 {
+  font-family: 'Anton', sans-serif;
+}
+img[src*="logo"]{
+  width: 9em;
+  height: 9em;
+  padding: 1em;
+  top: 75px;
+}
+
+#welcomeImg{
+  width: 100%;
+  align-content: center;
+}
+#homeSearchbox {
+  position: absolute;
+  right: 4em;
+  top: 2em;
+}
+fieldset {
+  border:hidden;
+}
+header {
+  background-color:#6D6B7A;
+}
+#headername {
+  color: black;
+  font-size: 6em;
+  font-family: 'Anton', sans-serif;
+  vertical-align: super;
+  }
+
+#welcometext {
+  column-count: 2;
+}
+.threecol {
+  column-count: 3;
+  column-gap: 10px;
+  margin-top: 0;
+  padding-top: 0;
+}
+label[for]{
+  font-family: 'Anton', sans-serif;
+}
+label[for*="robo"] {
+  font-family: monospace;
+}
+h4 {
+  font-family: monospace;
+}
+h5.styled {
+  font-family: monospace;
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-family: 'Anton', sans-serif;
+}
+nav ul {
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li > a {
+    text-decoration:none;
+}
+nav ul li > a:hover {
+    text-decoration:underline;
+}
+.navbar-background {
+    background-color: #A3B4E8;
+}
+
+
+.navlink {
+    height: 40px;
+    font-size: 25px;
+    float: left;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top: 5px;
+    color: white;
+    text-decoration: none;
+  }
+
+.active {
+    color: red;
+    background-color: white;
+}
+
+
+a.mainlink{
+  color: #A3B4E8;
+}
+
+.hover {
+  background-color: Silver;
+}
+
+footer {
+  background-color: #6D6B7A;
+  line-height: 6px;
+  text-align: center;
+  padding: 30px;
+}
+.smalltext {
+  font-size: 10px;
+  font-variant-caps: small-caps;
+}
